@@ -1,0 +1,7 @@
+<layout id="MainLayout" background="Gfx.COLOR_BLACK">
+	<!-- Top label -->
+	<label text="@Strings.Title" font="Gfx.FONT_SMALL" x="center" y="14" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER"/>	
+	<!-- Big label showing battery percentage -->	
+	<label id="BatteryState" text="@Strings.State" font="Gfx.FONT_NUMBER_HOT"
+		x="center" y="40" justification="Gfx.TEXT_JUSTIFY_CENTER" color="Gfx.COLOR_WHITE" />
+</layout>
