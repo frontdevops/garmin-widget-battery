@@ -8,8 +8,11 @@ class BatteryMenuDelegate extends Ui.BehaviorDelegate {
     }
 
     function onTap(clickEvent) {
-        Net.openWebPage("http://vacancy.new.hr/?utm=garmin", {}, {});
-        Ui.popView(Ui.SLIDE_LEFT);
+		var settings = System.getDeviceSettings();
+    	if (settings.phoneConnected) {
+	        Net.openWebPage("http://vacancy.new.hr/?utm=garmin-battery", {}, {});
+    	    Ui.popView(Ui.SLIDE_LEFT);
+        }
     }
 
     function onKey(keyEvent) {
