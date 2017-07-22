@@ -1,11 +1,12 @@
+<img src="https://raw.githubusercontent.com/frontdevops/garmin-widget-battery/master/store/vivoactivehr.png" width="100" align=right>
+
 # Beauty Battery Status
 Beauty Battery Status - a simple beautiful widget for Garmin Watches
 
 Open source simple beauty battery status widget that displays a graphic battery volume and text information.
 Please report any problems or requests in the https://github.com/frontdevops/garmin-widget-battery/issues
 
-<img src="https://raw.githubusercontent.com/frontdevops/garmin-widget-battery/master/store/vivoactivehr.png" width="100">
-
+Download in store https://apps.garmin.com/en-US/apps/26bec910-a88d-477f-b1b0-6fe0b007842c
 
 
 ## Compatible Devices
